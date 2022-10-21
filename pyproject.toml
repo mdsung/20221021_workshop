@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2022-workshop-example"
+version = "0.1.0"
+description = ""
+authors = ["MinDong Sung <mdskylover@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2022_workshop_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
